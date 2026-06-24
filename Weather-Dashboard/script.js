@@ -39,6 +39,8 @@ async function getWeather(cityName) {
         return;
     }
 
+    searchBtn.disabled = true;
+
     loader.classList.remove("hidden");
 
     try {
@@ -78,6 +80,8 @@ async function getWeather(cityName) {
 
         saveHistory(cityName);
 
+        
+
     }
     catch (error) {
 
@@ -87,6 +91,7 @@ async function getWeather(cityName) {
     finally {
 
         loader.classList.add("hidden");
+        searchBtn.disabled = false;
 
     }
 

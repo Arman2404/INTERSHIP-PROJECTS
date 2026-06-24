@@ -140,3 +140,7 @@ button:disabled{
     opacity:0.6;
     cursor:not-allowed;
 }
+
+.history li:hover{
+    text-decoration:underline;
+}

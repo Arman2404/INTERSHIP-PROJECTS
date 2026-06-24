@@ -350,3 +350,11 @@ footer{
 .stat-card h2{
     color:var(--primary);
 }
+
+.project-links a{
+    transition:0.3s;
+}
+
+.project-links a:hover{
+    transform:translateY(-3px);
+}

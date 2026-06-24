@@ -89,3 +89,13 @@ JECRC Foundation, Jaipur
 GitHub: https://github.com/Arman2404
 
 LinkedIn: https://www.linkedin.com/in/armank2404
+
+## Screenshots
+
+### Portfolio Website
+
+![Portfolio](Portfolio-Website/assets/project2.png)
+
+### Weather Dashboard
+
+![Weather Dashboard](Portfolio-Website/assets/project1.png)
